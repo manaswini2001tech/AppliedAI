@@ -1,0 +1,29 @@
+
+//Username and email Authentication setup
+git config --global user.name "manaswini2001tech"
+git config --global user.email "manasiwini@gmail.com"
+git config --global user.password "YourPassword"
+
+//To avoid repeatedly entering your credentials, store them using:
+git config --global credential.helper store
+
+//To confirm your configurations, use the following command:
+git config --list --show-origin
+
+// If 2WFA is asked (2 step) the generate a token and then authenticate.
+// https://stackoverflow.com/questions/29297154/github-invalid-username-or-password
+
+echo "# AppliedAI" >> README.md
+git init 
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git add .
+git remote add origin https://github.com/manaswini2001tech/AppliedAI.git
+git push -u origin main
+
+Note: Go to root folder as repository: root folder following src etc.
+Eg: e:/AppliedAI is where you should run the commands.
+Below folders will automatically get uploaded with all its contents.
+e:/AppliedAI/Week1
+e:/AppliedAI/Week2
