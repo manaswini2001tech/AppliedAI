@@ -27,3 +27,6 @@ Eg: e:/AppliedAI is where you should run the commands.
 Below folders will automatically get uploaded with all its contents.
 e:/AppliedAI/Week1
 e:/AppliedAI/Week2
+
+
+// https://stackoverflow.com/questions/24114676/git-error-failed-to-push-some-refs-to-remote
